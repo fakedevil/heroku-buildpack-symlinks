@@ -7,7 +7,7 @@ indent() {
 
 echo "-----> Symlink vendor binaries"
 
-ln -sf /app/vendor/phantomjs/bin/phantomjs /app/bin/phantomjs
+ln -sf $1/vendor/phantomjs/bin/phantomjs $1/bin/phantomjs
 
 echo "ln -sf /app/vendor/phantomjs/bin/phantomjs /app/bin/phantomjs"
 
