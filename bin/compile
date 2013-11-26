@@ -9,6 +9,8 @@ echo "-----> Symlink vendor binaries"
 
 ln -sf /app/vendor/phantomjs/bin/phantomjs /app/bin/phantomjs
 
+echo "ln -sf /app/vendor/phantomjs/bin/phantomjs /app/bin/phantomjs"
+
 
 
 
