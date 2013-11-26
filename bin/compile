@@ -5,13 +5,10 @@ indent() {
   sed -u 's/^/       /'
 }
 
-echo "-----> Found a .vendor_urls file"
+echo "-----> Symlink vendor binaries"
 
-# Bail early but noisily
-if [ ! -s $1/.vendor_urls ]; then
-  echo ".vendor_urls empty. HIER." | indent
-  exit 0
-fi
+ln -sf /app/vendor/phantomjs/bin/phantomjs /app/bin/phantomjs
 
-echo $1
+
+
 
