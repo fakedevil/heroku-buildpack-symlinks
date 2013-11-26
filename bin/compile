@@ -12,9 +12,4 @@ indent() {
 echo "-----> Symlink vendor binaries"
 
 ln -sf /app/vendor/phantomjs/bin/phantomjs $BUILD_DIR/bin/phantomjs
-
-echo $BUILD_DIR
-
-
-
-
+ln -sf /app/vendorpngcrush/bin/pngcrush $BUILD_DIR/bin/pngcrush
