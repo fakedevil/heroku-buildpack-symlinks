@@ -1,5 +1,9 @@
 #!/bin/bash
 
+set -e
+
+BUILD_DIR=$1
+CACHE_DIR=$2
 
 indent() {
   sed -u 's/^/       /'
@@ -7,9 +11,9 @@ indent() {
 
 echo "-----> Symlink vendor binaries"
 
-ln -sf $1/vendor/phantomjs/bin/phantomjs $1/bin/phantomjs
+ln -sf $BUILD_DIR/vendor/phantomjs/bin/phantomjs $BUILD_DIR/bin/phantomjs
 
-echo "ln -sf /app/vendor/phantomjs/bin/phantomjs /app/bin/phantomjs"
+echo $BUILD_DIR
 
 
 
