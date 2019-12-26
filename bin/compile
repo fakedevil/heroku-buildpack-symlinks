@@ -10,4 +10,4 @@ indent() {
 }
 
 echo "-----> Symlink opencv test6"
-ln -sf $HOME/.apt/usr/lib/jni/libopencv_java320.so $HOME/.apt/usr/lib/libopencv_java.so
+ln -sf $HOME/.apt/usr/lib/jni/libopencv_java320.so $BUILD_DIR/.apt/usr/lib/libopencv_java.so
