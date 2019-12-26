@@ -11,4 +11,4 @@ indent() {
 
 echo "-----> Symlink opencv"
 
-ln -s /usr/lib/jni/libopencv_java320.so /usr/lib/libopencv_java.so
+ln -sf /usr/lib/jni/libopencv_java320.so /usr/lib/libopencv_java.so
