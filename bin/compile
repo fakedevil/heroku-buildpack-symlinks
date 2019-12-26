@@ -9,6 +9,6 @@ indent() {
   sed -u 's/^/       /'
 }
 
-echo "-----> Symlink opencv"
+echo "-----> Symlink opencv test2"
 
 ln -sf /usr/lib/jni/libopencv_java320.so /usr/lib/libopencv_java.so
