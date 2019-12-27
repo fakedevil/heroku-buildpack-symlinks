@@ -12,7 +12,7 @@ indent() {
 echo "-----> Symlink opencv test6"
 ln -sf $HOME/.apt/usr/lib/jni/libopencv_java320.so $BUILD_DIR/.apt/usr/lib/libopencv_java.so
 ln -sf $HOME/.apt/lib/x86_64-linux-gnu/libusb-1.0.so.0 $BUILD_DIR/.apt/usr/lib/libusb-1.0.so.0
-# ln -sf $HOME/.apt/lib/x86_64-linux-gnu/libblas.so.3 $BUILD_DIR/.apt/usr/lib/libblas.so.3
+ln -sf $HOME/.apt/lib/x86_64-linux-gnu/blas/libblas.so.3 $BUILD_DIR/.apt/usr/lib/libblas.so.3
 
 echo "-----> finding libvpx5"
 cp /usr/lib/x86_64-linux-gnu/libvpx.so.5 $BUILD_DIR/.apt/usr/lib/libvpx.so.5
