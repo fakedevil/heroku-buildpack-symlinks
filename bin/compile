@@ -14,4 +14,4 @@ ln -sf $HOME/.apt/usr/lib/jni/libopencv_java320.so $BUILD_DIR/.apt/usr/lib/libop
 ln -sf $HOME/.apt/lib/x86_64-linux-gnu/libusb-1.0.so.0 $BUILD_DIR/.apt/usr/lib/libusb-1.0.so.0
 
 echo "-----> finding libvpx5"
-cp /usr/lib/libvpx.so.5 $BUILD_DIR/.apt/usr/lib/libvpx.so.5
+cp /lib/libvpx.so.5 $BUILD_DIR/.apt/usr/lib/libvpx.so.5
