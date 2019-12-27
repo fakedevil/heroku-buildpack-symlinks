@@ -15,4 +15,4 @@ ln -sf $HOME/.apt/lib/x86_64-linux-gnu/libusb-1.0.so.0 $BUILD_DIR/.apt/usr/lib/l
 
 echo "-----> finding libvpx5"
 cp /usr/lib/x86_64-linux-gnu/libvpx.so.5 $BUILD_DIR/.apt/usr/lib/libvpx.so.5
-cp $BUILD_DIR.apt/lib/x86_64-linux-gnu/blas/libblas.so.3 $BUILD_DIR/.apt/usr/lib/libblas.so.3
+cp $BUILD_DIR/.apt/lib/x86_64-linux-gnu/blas/libblas.so.3 $BUILD_DIR/.apt/usr/lib/libblas.so.3
